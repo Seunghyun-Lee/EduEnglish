@@ -56,6 +56,7 @@ public class DBManager extends SQLiteOpenHelper {
                     + cursor.getInt(2)
                     + "\n";
         }
+
         return str;
     }
 }
